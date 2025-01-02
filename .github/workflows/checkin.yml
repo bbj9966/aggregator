@@ -1,10 +1,10 @@
-name: Checkin
-on:
-  schedule:
+#name: Checkin
+#on:
+  #schedule:
     #- cron: "0 */2 * * *"
   workflow_dispatch:
 
-jobs:
+#jobs:
   sync_with_upstream:
     runs-on: ubuntu-latest
     name: auto checkin for traffic
